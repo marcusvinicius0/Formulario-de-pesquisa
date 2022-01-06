@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    color: white;
+    background-color: #343A40;
+}
+
+.container3 {
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 720px;
+    height: 1197px;
+    margin-left: 316px;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    background-color: rgba(57, 57, 110, 0.8);
+    padding: 40px;
+}
+
+input {
+    margin-top: 3px;
+}
+
+.input-name {
+    width: 100%;
+    height: 32px;
+}
+
+.input-email {
+    width: 100%;
+    height: 32px;
+}
+
+.input-age {
+    width: 100%;
+    height: 32px;
+}
+
+select {
+    width: 100%;
+    height: 32px;
+    margin-top: 3px;
+}
+
+p {
+    margin-top: 17px;
+}
+
+.input-radio {
+    margin-right: 5px;
+    margin-top: 9px;
+}
+
+.option {
+    margin-right: 3px;
+    margin-bottom: 7px;
+    margin-top: 12px;
+}
+
+textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: green;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+}

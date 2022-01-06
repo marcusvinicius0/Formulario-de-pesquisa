@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:ital,wght@1,100&family=Quicksand:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;500&family=Vujahday+Script&display=swap"
+        rel="stylesheet">
+    <title>Formulário</title>
+</head>
+
+<header>
+    Formulário de pesquisa freeCodeCamp<br>
+    Obrigado por nos ajudar a melhorar a plataforma
+</header>
+
+<body>
+
+    <div class="container3">
+
+        <form action="" method="post">
+
+            <label>
+                <p>Nome</p>
+                <input placeholder="Digite seu nome" class="input-name" type="text">
+            </label>
+
+            <label>
+                <p>Email</p>
+                <input placeholder="Digite seu e-mail" class="input-email" type="email">
+            </label>
+
+            <label>
+                <p>Age</p>
+                <input class="input-age" type="number" width="20px" min="0">
+            </label>
+
+            <label>
+                <p>Qual opção descreve melhor sua função atual?</p>
+                <select required>
+                    <option value="" disabled selected>Selecione sua função atual</option>
+                    <option>Estudante</option>
+                    <option>Trabalho em Período Integral</option>
+                    <option>Estudante em Período Integral</option>
+                    <option>Prefiro não dizer</option>
+                    <option>Outro</option>
+                </select>
+            </label>
+
+            <!-- <label>
+                <p>Você recomendaria freeCodeCamp para um amigo?</p>
+                <input type="radio" class="recommendation">
+                Definitivamente
+            </label>
+            
+            <label>
+                <input type="radio" class="recommendation">
+                Talvez
+            </label>
+
+            <label>
+                <input type="radio" class="recommendation">
+                Não tenho certeza
+            </label> -->
+            <div class="form-group">
+
+                <p>Você recomendaria freeCodeCamp para algum amigo?</p>
+                <label>
+                    <input name="user-recommend" value="definitely" type="radio" class="input-radio"
+                        checked />Definitivamente
+                </label>
+                <br>
+               
+                <label>
+                    <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Talvez
+                </label>
+                <br>
+                
+                <label>
+                    <input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Não tenho certeza
+                </label>
+            </div>
+
+            <label>
+                <p>Qual é o seu recurso favorito do freeCodeCamp?</p>
+                <select required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option>Desafios</option>
+                    <option>Projetos</option>
+                    <option>Comunidade</option>
+                    <option>Código Aberto</option>
+                </select>
+            </label>
+
+            <label class="improves">
+                <p>O que você gostaria de ver melhorado?</p>
+                <input type="checkbox" class="option">
+                Projetos de Front-End
+                <br>
+                <input type="checkbox" class="option">
+                Projetos de Back-End
+                <br>
+                <input type="checkbox" class="option">
+                Visualização de Dados
+                <br>
+                <input type="checkbox" class="option">
+                Desafios
+                <br>
+                <input type="checkbox" class="option">
+                Comunidade de Código aberto
+                <br>
+                <input type="checkbox" class="option">
+                Sala de Ajuda da Grade
+                <br>
+                <input type="checkbox" class="option">
+                Videos
+                <br>
+                <input type="checkbox" class="option">
+                Encontros na Cidade
+                <br>
+                <input type="checkbox" class="option">
+                Wiki
+                <br>
+                <input type="checkbox" class="option">
+                Forum
+                <br>
+                <input type="checkbox" class="option">
+                Cursos Adicionais
+            </label>
+
+            <p>Algum comentário ou sugestões?</p>
+            <textarea placeholder="Digite seu comentário aqui..."></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
