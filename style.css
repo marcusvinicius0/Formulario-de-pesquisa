@@ -13,8 +13,7 @@ header {
 }
 
 body {
-    color: white;
-    background-color: #343A40;
+background-color: black;
 }
 
 .container3 {
@@ -87,4 +86,78 @@ button {
     cursor: pointer;
     margin-top: 20px;
     font-size: 17px;
+}
+
+@media (min-width:1060px ) and (max-width:1115px) {
+
+    .container3 {
+        margin-left: 17.5vw;
+    }
+
+}
+
+@media (min-width: 850px) and (max-width: 1059px) {
+
+    .container3 {
+        margin-left: 9vw;
+    }
+}
+
+@media (min-width: 793px) and (max-width: 849px) {
+
+    .container3 {
+        margin-left: 4vw;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 792px){
+
+    .container3 {
+        margin-left: 3vw;
+        width: 88vw;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 699px){
+
+    .container3 {
+        margin-left: 5vw;
+        width: 86vw;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 599px){
+
+    .container3 {
+        margin-left: 5vw;
+        width: 86vw;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 499px){
+
+    header {
+        font-size: 25px;
+    }
+
+    .container3 {
+        margin-left: 5vw;
+        width: 86vw;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+
+    header {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .container3 {
+        margin-left: 5vw;
+        width: 86vw;
+        height: 200vh;
+    }
+
 }
