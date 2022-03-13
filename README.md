@@ -10,11 +10,14 @@
 
 > Formulário de pesquisa inspirado no site de programadores freeCodeCamp
 
-### Tecnologias usadas:
+##
+Tecnologias usadas:
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a>;
  <br>
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS</a>;
-## 🤝 Colaboradores
+ <br>
+## 
+🤝 Colaboradores
 
 <a href="https://www.linkedin.com/in/marcusviniciusbeghelisantos/" target="_blank">Marcus Vinícius</a>
 
