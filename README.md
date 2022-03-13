@@ -12,6 +12,7 @@
 
 ### Tecnologias usadas:
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a>;
+ <br>
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target:"_blank">CSS</a>;
 ## 🤝 Colaboradores
 
