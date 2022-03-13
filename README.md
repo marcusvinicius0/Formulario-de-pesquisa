@@ -11,10 +11,8 @@
 > Formulário de pesquisa inspirado no site de programadores freeCodeCamp
 
 ### Tecnologias usadas:
- <img align="center" alt="Marcus-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-   <img align="center" alt="Marcus-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
- 
-
+ <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a>;
+ <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target:"_blank">CSS</a>;
 ## 🤝 Colaboradores
 
 <a href="https://www.linkedin.com/in/marcusviniciusbeghelisantos/" target="_blank">Marcus Vinícius</a>
